@@ -20,6 +20,6 @@ python -m streamlit run app.py
 
 ## Configuration
 
-Before running the app, you may configure your own API key in the `app.py` file. Replace the current API key with your API key and also configure the model name to best fit your results with your expectations.
+Before running the app, you may configure your own API key in the `app.py` file. Replace the `API_KEY` variable with your own Gemini API key and also configure the model name to best fit your results with your expectations.
 
 You can also tell Gemini to use a specific CSS framework, like Bootstrap or Tailwind CSS!
