@@ -4,7 +4,7 @@ from PIL import Image
 import google.generativeai as genai
 
 FRAMEWORK = "Regular CSS use flex grid etc"
-MODEL_NAME = "gemini-1.5-flash-latest"
+MODEL_NAME = "gemini-2.0-flash"
 API_KEY = st.secrets["API_KEY"]
 genai.configure(api_key=API_KEY)
 
